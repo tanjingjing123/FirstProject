@@ -6,6 +6,7 @@ public class ArmstrongNumber
 {
     public static boolean isArmstrong(int N)
     {
+
         String s=Integer.toString(N);
         int len=s.length();
         int val=N;
